@@ -1,67 +1,86 @@
-# Solar Panel Degradation Predictor - Panel Scan
+# Panel Scan – Solar Panel Degradation Predictor
 
-An AI-powered system designed to monitor and predict degradation in solar panels using drone-captured data, deep learning, and real-time dashboards.
-
-## Project Overview
-
-Solar panels are often affected by microcracks, soiling, and other physical degradations that reduce their efficiency. Manual inspections are time-consuming and costly. This project leverages **drone-based thermal imaging**, **Convolutional Neural Networks (CNNs)**, and a **visual dashboard** to automate early fault detection and support proactive maintenance planning.
-
-##  Problem Statement
-
-- Microcracks and dirt accumulation in solar panels reduce energy output.
-- Lack of early detection leads to higher maintenance costs and efficiency loss.
-
-##  Solution
-
-- **Drones** capture thermal images of solar panels.
-- A **CNN model** built using **PyTorch** analyzes the images to detect faults.
-- A **Plotly-based dashboard** displays real-time panel health status and alerts.
-
-##  Tech Stack
-
-- **PyTorch** – CNN model for fault detection  
-- **UAV Drones** – Data (image) acquisition  
-- **Plotly** – Interactive dashboard for monitoring  
-- **HTML/CSS/JS** – Frontend structure  
-- **Python** – Backend scripting and data processing
-
-##  Features
-
-- Automatic detection of microcracks and soiling  
-- Real-time panel health visualization  
-- Maintenance alert system  
-- Scalable for solar farms and large installations
-
-##  Project Outcomes
-
--  **15% boost** in panel efficiency  
--  **30% reduction** in maintenance cost  
--  Enhanced reliability in solar energy management  
--  Estimated scanning of **200K+ panels per mission**
-
-##  Live Demo
-
- [Access the Dashboard](https://panel-scan-brown.vercel.app)
-
-##  Learnings
-
-- Improved skills in **AI/ML and CNN architectures**
-- Experience with **thermal image processing and drone data**
-- Built a **user-centric dashboard** with effective data storytelling
-- Explored real-world deployment scope with **SCADA systems**
-
-##  Future Scope
-
-- Enhance model accuracy with larger datasets  
-- Expand dashboard analytics  
-- Integrate with existing solar plant monitoring infrastructure
-
-##  Team
-
-- **Samiksha Yadav**  
-- **Koppada Prudhvi Vinayak**  
-- **Sri Harini Togaru**
+A modern web application for monitoring and predicting solar panel degradation using image uploads, interactive dashboards, and a beautiful, responsive UI.
 
 ---
 
-> This project was created as part of the **1M1B Green Internship 2025**, focused on promoting sustainability through technology.
+##  Project Overview
+
+Solar panels are susceptible to microcracks, soiling, and other types of degradation, which reduce their efficiency over time. Manual inspections are slow and expensive. *Panel Scan* provides an intuitive platform for uploading panel images, analyzing their health status, and visualizing trends—empowering proactive maintenance and faster decision-making.
+
+---
+
+##  Key Features
+
+- *Image Upload & Analysis:*  
+  Upload panel images (including drone-captured or thermal images). The application processes these images and delivers instant health assessments and recommendations.
+
+- *Interactive Dashboard:*  
+  View real-time results and analytics on a modern dashboard with charts, progress bars, and summary cards.
+
+- *Result Storage:*  
+  Analysis results and image data are stored locally in the browser for session continuity and easy reporting.
+
+- *Modern UI/UX:*  
+  Clean, responsive, and accessible interface built with React, shadcn-ui, and Tailwind CSS.
+
+---
+
+##  Tech Stack
+
+- *Frontend*
+  - [React](https://react.dev/) – UI library for building interactive interfaces
+  - [TypeScript](https://www.typescriptlang.org/) – Static type safety
+  - [Vite](https://vitejs.dev/) – Lightning-fast build tool
+  - [shadcn-ui](https://ui.shadcn.com/) – Accessible component library
+  - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+  - [Radix UI](https://www.radix-ui.com/) – Unstyled, accessible component primitives
+  - [Recharts](https://recharts.org/) – Data visualizations and charts
+  - [Lucide-react](https://lucide.dev/) – Icon library
+
+- *State & Routing*
+  - React hooks & localStorage for state management and persistence
+  - [react-router-dom](https://reactrouter.com/) for client-side routing
+
+- *DevOps/Deployment*
+  - [Vercel](https://vercel.com/) for instant deployments
+---
+
+##  Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) & npm (use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) recommended)
+
+### Local Development
+
+sh
+git clone https://github.com/Samiksha-05/Panel_Scan.git
+cd Panel_Scan
+npm install
+npm run dev
+
+
+
+## Usage
+
+1. *Upload*: Go to the upload page and submit your panel image.
+2. *Analyze*: The app processes the image and predicts panel health status (e.g., Healthy, Moderate Issues, Severe Damage).
+3. *Results*: Get a detailed breakdown of detected issues, confidence scores, and recommendations.
+4. *Reports*: Access historical analysis and analytic charts over time.
+
+---
+
+## Deployment
+
+- *Vercel*: Main branch is deployed to [panel-scan.vercel.app](https://panel-scan.vercel.app)
+
+---
+
+
+## License
+
+This project is for demonstration and educational purposes.  
+Contact the owner for commercial use or licensing questions.
+
+---
