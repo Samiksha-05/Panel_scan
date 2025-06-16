@@ -73,14 +73,26 @@ npm run dev
 
 ## Deployment
 
-- *Vercel*: Main branch is deployed to [panel-scan.vercel.app](https://panel-scan.vercel.app)
+- Access the Dashboard: [https://panel-scan-brown.vercel.app](https://panel-scan-brown.vercel.app)
 
 ---
 
+
+## Team
+
+- Samiksha Yadav  
+- Koppada Prudhvi Vinayak  
+- Sri Harini Togaru
+
+---
+
+This project was created as part of the 1M1B Green Internship 2025, focused on promoting sustainability through technology.
 
 ## License
 
 This project is for demonstration and educational purposes.  
 Contact the owner for commercial use or licensing questions.
+
+
 
 ---
